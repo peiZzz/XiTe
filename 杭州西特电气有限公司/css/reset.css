@@ -1,0 +1,38 @@
+body{
+	padding: 0;
+	margin: 0 auto;
+	font-family: 'Microsoft YaHei';
+}
+html,body{
+	height: 100%;
+}
+
+p,ol,ul,li,h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a,a:hover{
+	outline: none;
+	text-decoration: none;
+	color: #000;
+}
+
+input{
+	outline: none;
+	padding: 0;
+}
+
+img{
+	outline: none;
+	height: auto;
+}
+
+.fl{
+	float: left;
+}
+
+.fr{
+	float: right;
+}

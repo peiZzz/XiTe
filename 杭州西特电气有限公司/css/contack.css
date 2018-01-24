@@ -1,0 +1,231 @@
+@import url("common.css");
+.contack .nav_list li:nth-child(5){
+	background: #1983b2;
+	
+}
+.contack .nav_list li:nth-child(5) a{
+	color: #FFF
+}
+.contack .contack_banner{
+	width: 100%;
+	min-width: 1200px;
+	position: relative;
+	height: 300px;
+	overflow: hidden;
+}
+.contack .contack_banner img{
+	position: absolute;
+	left: 50%;
+	margin-left: -960px;
+}
+.contack .content{
+	width: 1200px;
+	margin:0 auto;
+	padding-bottom: 50px;
+}
+.contack .contack_nav{
+	overflow: hidden;
+	padding: 20px 0;
+}
+.contack .contack_nav ul{
+	float: right;
+	overflow: hidden;
+}
+.contack .contack_nav li{
+	float: left;
+}
+.contack .contack_nav li>a{
+	color: #828181
+}
+.contack .contack_detail_title{
+	width: 100px;
+	font-size: 20px;
+	color: #FFF;
+	text-align: center;
+	line-height: 36px;
+	height: 36px;
+	background: #50c0f3;
+	margin-top: 20px;
+
+}
+.contack .contack_detail_text{
+	width: 1200px;
+	margin: 0 auto;
+}
+.contack .contack_detail_text ul{
+	overflow: hidden;
+	width: 1000px;
+	border-top:2px solid #CCC;
+	
+	margin-top: 20px; 
+}
+.contack .contack_detail_text li{
+	width: 200px;
+	height: 100px;
+	padding: 50px 50px 30px 0;
+	margin-right: 70px;
+	float: left;
+}
+.contack .contack_detail_text li>img{
+	float: left;
+	width: 30px;
+}
+.contack .contack_detail_text li>div{
+	float: left;
+	width: 150px;
+	margin-left: 8px;
+}
+.contack .contack_detail_text li>div>p{
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 40px;
+}
+.contack .person_message_title{
+	width: 100px;
+	font-size: 20px;
+	color: #FFF;
+	text-align: center;
+	line-height: 36px;
+	height: 36px;
+	background: #50c0f3;
+	margin-top: 20px;
+}
+.contack form{
+	overflow: hidden;
+	border-top:2px solid #CCC;
+	
+	margin: 20px 0;
+	padding: 20px 0
+}
+.contack form>div{
+	float: left;
+	margin-right: 110px;
+}
+.contack .com_name{
+	overflow: hidden;
+}
+.contack .com_name .com_name_img{
+	height: 40px;
+}
+.contack .com_name div>img{
+	width: 24px;
+	margin-top: 8px;
+}
+.contack .com_name div{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.contack .com_name div>input{
+    height: 20px;
+    outline: none;
+}
+.contack .com_name_text{
+	margin: 0 5px;
+}
+.contack .lay_out{
+	margin-top: 20px;
+}
+.contack .lay_out>div{
+	float: left;
+
+	font-size: 20px;
+	font-weight: bold;
+}
+.contack .com_name_img{
+	height: 40px;
+	line-height: 40px;
+}
+.contack .lay_out .com_name_text{
+	height: 40px;
+	line-height: 40px;
+	margin: 0 5px;
+}	
+.contack .com_name_img img{
+	width: 24px;
+	margin-top: 8px;
+}
+.contack .lay_out_inp>input{
+	width: 964px;
+	height: 100px;
+}
+.contack .check_code{
+	margin-top: 20px;
+	width: 1200px;
+	margin-right: 0px;
+}
+.contack .check_code div{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+}
+.contack .check_code div>img{
+	margin-top: 7px;
+}
+.contack .check_code_img img{
+	width: 24px;
+}
+.contack .check_code_text{
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0 15px; 
+}
+.contack .check_code div>input{
+	width: 100px;
+	height: 26px;
+	margin: 0px;
+}
+.contack .check_code_num img{
+	width: 60px;
+	margin: 0 5px;
+}
+.contack .from_btn{
+	margin: 0 auto;
+	width: 300px;
+	display: block;
+	overflow: hidden;
+	padding-top: 20px;
+
+}
+.contack .from_btn>div{
+	float: left;
+	width: 100px;
+	height: 40px;
+	background:#50c0f3;
+	text-align: center;
+	color: #FFF;
+	line-height: 40px;
+	font-size: 20px;
+	margin-right: 30px;
+}
+.contack .map{
+	width: 1200px;
+	margin: 0 auto
+}
+.contack .map_title{
+	width: 100px;
+	font-size: 20px;
+	color: #FFF;
+	text-align: center;
+	line-height: 36px;
+	height: 36px;
+	background: #50c0f3;
+	margin-top: 20px;
+}
+.contack .map_line{
+	width: 1200px;
+	margin: 0 auto;
+	border: 1px solid #CCC;
+	margin: 20px 0;
+}
+.contack .map-show{
+	width: 1100px;
+	margin: 0 auto;
+
+}
+
+
+	
+

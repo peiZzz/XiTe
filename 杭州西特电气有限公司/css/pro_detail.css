@@ -1,0 +1,136 @@
+@import url("common.css");
+.pro_detail .nav_list li:nth-child(3){
+	background: #1983b2;
+	
+}
+.pro_detail .nav_list li:nth-child(3) a{
+	color: #FFF
+}
+ .content .pro_list{
+	width: 1200px;
+	margin: 0 auto;
+	height: 40px;
+	line-height: 40px;
+	background: #00b6ff;
+	overflow: hidden;
+}
+.pro_detail .pro_list>div{
+	float: left;
+	width: 170px;
+	color: #FFF;
+	font-size: 20px;
+	text-align: center;
+	font-family: "黑体";
+
+}
+.pro_detail .pro_classify_title{
+	position: relative;
+	background: #356a7f;
+}
+.pro_detail .pro_classify_title span {
+	display: block;
+	float: right;
+	margin-top: 15px;
+	margin-right: 15px;
+	border-top: 8px solid #FFF;
+	border-right: 8px solid transparent;
+	border-bottom: 8px solid transparent;
+	border-left: 8px solid transparent;
+}
+.pro_detail .pro_list_show{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.pro_detail .pro_classify_title_list{
+	width: 170px;
+	font-size: 16px;
+	color: #FFF;
+	float: left;
+	text-align: center;
+}
+.pro_detail .pro_classify_title_list li{
+	height: 40px;
+	line-height: 40px;
+	margin-bottom:2px; 
+	background: #00b6ff;
+}
+.pro_detail .pro_classify_title_list li:hover{
+	background: #0092cc
+}
+.pro_detail .pro_list_show .pro_search_title{
+	font-size: 18px;
+	text-align: center;
+	color:#FFF;
+	background: #005b7f;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 20px;
+}
+.pro_detail .pro_list_show .pro_search_text{
+	height: 50px;
+	background: #f1f7fa;
+}
+.pro_detail .pro_search_text input{
+	width: 120px;
+	height: 20px;
+	float: left;
+	margin-top: 15px;
+	margin-left: 15px;
+	outline: none;
+	border: none
+}
+.pro_detail .pro_search_text img{
+	width: 20px;
+	margin-top: 15px;
+	margin-right:12px;
+}
+.pro_detail .pro_search_text_img{
+	float: left;
+}
+
+.pro_detail .pro_list_show_detail{
+	float: left;
+	width: 1030px;
+}
+.pro_detail .pro_list_show_detail_top{
+	padding: 15px;
+	overflow: hidden;
+}
+.pro_detail .pro_list_show_detail_top .pro_list_show_detail_top_img{
+	float: left;
+	border: 1px solid #CCC;
+}
+.pro_detail .pro_list_show_detail_top .pro_list_show_detail_top_text{
+	text-indent: 2em;
+	padding-left: 15px;
+	line-height: 25px;
+	float: right;
+	font-size: 16px;
+	width: 740px
+}
+.pro_detail .point .point_img{
+	margin-top: 50px;
+	text-align: center;
+}
+.pro_detail .point .point_text{
+	margin-bottom: 50px;
+}
+.pro_detail .point .point_text_title{
+	overflow: hidden;
+	font-size: 22px;
+	height: 38px;
+	line-height: 38px;
+	margin-bottom: 5px;
+}
+.pro_detail .point_text_title_icon {
+	height: 32px;
+	float: left;
+	padding-top:3px;
+	margin-right: 5px; 
+}
+.pro_detail .point_text_detail{
+	font-size: 16px;
+	text-align: justify;
+	line-height: 24px;
+}

@@ -1,0 +1,136 @@
+@import url("common.css");
+.news_detail .nav_list li:nth-child(4){
+	background: #1983b2;
+	
+}
+.news_detail .nav_list li:nth-child(4) a{
+	color: #FFF
+}
+.news_detail .news_banner{
+	width: 100%;
+	min-width: 1200px;
+	position: relative;
+	height: 300px;
+	overflow: hidden;
+}
+.news_detail .news_banner img{
+	position: absolute;
+	left: 50%;
+	margin-left: -960px;
+}
+.news_detail .content{
+	width: 1200px;
+	margin:0 auto;
+	padding-bottom: 50px;
+}
+.news_detail .news_nav{
+	overflow: hidden;
+	padding: 20px 0;
+}
+.news_detail .news_nav ul{
+	float: right;
+	overflow: hidden;
+}
+.news_detail .news_nav li{
+	float: left;
+}
+.news_detail .news_nav li>a{
+	color: #828181
+}
+.news_detail .news_list_paging{
+	text-align: center;
+	font-size: 22px;
+}
+.news_detail .news_list_paging ul{
+	overflow: hidden;
+	display: inline-block;
+	margin: 40px 0;
+}
+.news_detail .news_list_paging li{
+	width: 200px;
+	text-align: center;
+	border: 1px solid #ccc;
+	float: left; 
+	height: 40px;
+	line-height: 40px;
+}
+.news_detail .news_list_paging li:nth-child(1){
+	background: #0a4d6d;
+	color:#FFF;
+}
+.news_detail .news_list_paging li:hover{
+	background: #0a4d6d;
+	color: #FFF;
+}
+.news_detail .news_detail_content{
+	border:2px solid #CCC;
+	width: 1150px;
+	margin: 0 auto;
+}
+.news_detail .news_detail_content .news_detail_biger_title{
+	text-align: center;
+	font-size: 24px;
+	line-height: 48px;
+}
+.news_detail .news_detail_content .settime{
+	width: 574px;
+	height: 50px;
+	line-height: 50px;
+	border-top: 2px solid #CCC;
+	border-bottom: 2px solid #CCC;
+	margin: 0 auto;
+	padding: 0 160px;
+	
+	text-align: center;
+}
+.news_detail .settime>div{
+	margin: 0 auto;
+	overflow: hidden;
+}
+.news_detail .settime>div>div{
+	float: right;
+	margin: 0 74px;
+	color: #5e5b5b;
+}
+.news_detail .text_header{
+	width: 894px;
+	margin:0 auto;
+	text-indent: 2em;
+	line-height: 24px;
+	color: #5e5b5b
+}
+.news_detail .text_img{
+	margin: 0 auto;
+	text-align: center;
+}
+.news_detail .step_detail{
+	width: 894px;
+	margin:0 auto;
+}
+.news_detail .step_detail li{
+	list-style: decimal;
+	margin-bottom: 20px;
+	color: #5e5b5b
+}
+.news_detail .paging{
+	width: 300px;
+	padding-top: 30px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.news_detail .paging>div{
+	float: left;
+	height: 36px;
+	line-height: 36px;
+	background: #50c0f3;
+	color: #FFF;
+	margin: 0 10px;
+	text-align: center;
+	width: 80px;
+	cursor: pointer;
+}
+.news_detail .paging>div:hover{
+	background:#80cffa 
+}
+
+

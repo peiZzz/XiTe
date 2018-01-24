@@ -1,0 +1,196 @@
+.header{
+	width: 100%;
+} 
+.header .nav{
+	width: 1200px;
+	height: 50px;
+	margin: 0 auto;
+
+}
+.nav .nav_icon{
+	font-size: 32px;
+	line-height: 50px;
+	height: 50px;
+	font-family: "黑体";
+}
+.nav .nav_list{
+	font-size: 24px;
+	font-family: "黑体"; 
+}
+.nav_list ul{
+	overflow: hidden;
+	height: 50px;
+	line-height: 50px;
+}
+.nav_list li{
+	float: left;
+	padding: 0 12px;
+	width: 120px;
+	text-align: center;
+}
+.nav_list li:hover{
+	background-color: #1983b2;
+	cursor: pointer;
+}
+.nav_list li:hover a{
+	color: #FFF;
+	width: 120px;
+}
+
+.head{
+	width: 300px;
+	margin: 0 auto;
+	font-size: 44px;
+	font-family: "黑体";
+	text-align: center;
+	line-height: 44px;
+	overflow: hidden;
+}
+.top_border{
+	width: 258px;
+	height: 28px;
+	box-sizing: border-box;
+	border-top: 4px solid #1983b2;
+	border-right: 4px solid #1983b2;
+	float: right;
+}
+.sup_border{
+	width: 258px;
+	height: 28px;
+	box-sizing: border-box;
+	border-bottom: 4px solid #1983b2;
+	border-left: 4px solid #1983b2;
+	float: left;
+}
+
+.app_around{
+	width: 1200px;
+	margin: 0 auto;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+.app_around_list ul{
+	margin-top: 52px;
+    overflow: hidden;
+}
+.app_around_list li{
+	float: left;
+	text-align: center;
+	margin:0 24px;
+	font-size: 24px;
+
+}
+.app_around_list a{
+	display: block;
+}
+
+ .paging{
+	text-align: center;
+	margin-top: 50px;
+}
+ .paging ul{
+	overflow: hidden;
+	margin: 0 auto;
+	width: 520px;
+}
+ .paging li{
+	float: left;
+	width: 40px;
+	height: 40px;
+	margin:0 10px; 
+	line-height: 40px;
+	color: #FFF;
+	background-color: #00b7ee;
+}
+ .paging li:nth-child(7){
+	width: 60px;
+}
+ .paging li:nth-child(8){
+	width: 60px;
+}
+ .paging li:hover{
+	background-color: #0a4d6d
+}
+
+
+.footer{
+	width: 100%;
+	min-width: 1200px;
+	background-color: #010101;
+	color: #FFF;
+}
+.footer .footer_text{
+	width: 1152px;
+	margin: 0 auto;
+	padding:20px 24px;
+	font-size: 18px;
+	font-family: "黑体";
+	overflow: hidden;
+}
+.footer .footer_text>div{
+	float: left;
+}
+.footer_left li{
+	padding-top: 5px;
+}
+.footer_left li>span{
+	margin-right: 10px;
+}
+.footer_left li:last-child>span{
+	margin-right:30px;
+}
+.footer_center{
+	padding-top: 75px;
+	padding-left: 30px;
+}
+.footer_center input{
+	width: 180px;
+	height: 30px;
+	outline: none;
+	border-radius: 5px 0px 0px 5px;
+	border:none;
+	float: left;
+}
+.footer_center div{
+	float: left;
+	border-radius: 0px 5px 5px 0px;
+}
+.footer_center div img{
+	width: 30px;
+}
+.footer_right{
+	width: 240px;
+	padding-left: 320px;
+	text-align: center;
+}
+.footer_right .ercode_img{
+	width: 150px;
+	margin: 0 auto;
+	display: block;
+	padding-top: 5px;
+}
+.footer_right .ercode_img img{
+	width: 140px;
+}
+.line{
+	width: 1100px;
+	border-top: 2px solid #FFF;
+	padding-top: 10px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/*固定定位*/
+.other{
+	position: fixed;
+	top:200px;
+	right: 0px;
+}
+.other img{
+	width: 80px;
+	border-radius: 8px;
+	transition:all .5s;
+}
+.other li:hover img{
+	transform:scale(1.1);
+}
